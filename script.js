@@ -3,4 +3,5 @@ let sorted = copySorted(arr);
 function copySorted(arr) {
     return arr.slice().sort();
   }
-  alert( sorted );
+  alert(sorted);
+  alert(arr);
