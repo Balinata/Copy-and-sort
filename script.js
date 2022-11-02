@@ -1,5 +1,6 @@
-let arr = ["Orange", "Banana", "Pear"];
+let arr = ["Orange", "Grapefruit", "Pear"];
 let sorted = copySorted(arr);
 function copySorted(arr) {
     return arr.slice().sort();
   }
+  alert( sorted );
